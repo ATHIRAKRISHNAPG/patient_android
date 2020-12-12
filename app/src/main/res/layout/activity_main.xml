@@ -1,0 +1,43 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#BC75597A"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textSize="30px"
+        android:text="Patient Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/pname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="30px"
+        android:text="Doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="30px"
+        android:text="Symptoms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+       <EditText
+           android:id="@+id/symptoms"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+    <Button
+        android:onClick="Event"
+        android:text="SUBMIT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="RESET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
